@@ -1,3 +1,101 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select, textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+td:not([align]), th:not([align]) {
+  text-align: left;
+}
+
+.header {
+  background: #579c87;
+  height: 245px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7rem;
+}
+.header__heading {
+  color: #fdcb46;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.grid .card {
+  background: #fcdfdb;
+  height: 758px;
+  width: 538px;
+  margin: 50px;
+}
+
+.btn {
+  height: 11rem;
+  width: 65rem;
+  border-radius: 1.8rem;
+  border-style: none;
+  cursor: pointer;
+  background: #579c87;
+  color: #fdcb46;
+  font-size: 4rem;
+  align-self: center;
+  margin: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #579c87;
+  color: #fdcb46;
+  height: 14rem;
+}
 
 /*# sourceMappingURL=style.css.map */

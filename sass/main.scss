@@ -1,0 +1,61 @@
+@import "libs/reset.scss";
+
+$color-primary: #579c87;
+$color-secondary: #fdcb46;
+
+.header {
+    background: $color-primary;
+    height: 245px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+    &__heading {
+        color: $color-secondary;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card {
+        background: #fcdfdb;
+        height: 758px;
+        width: 538px;
+        margin: 50px;
+    }
+}
+
+.btn {
+    height: 11rem;
+    width: 65rem;
+    border-radius: 1.8rem;
+    border-style: none;
+    cursor: pointer;
+    background: $color-primary;
+    color: $color-secondary;
+    font-size: 4rem;
+    align-self: center;
+    margin: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $color-primary;
+    color: $color-secondary;
+    height: 14rem;
+
+    .bloc {
+        
+    }
+}
+
