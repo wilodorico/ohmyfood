@@ -47,21 +47,25 @@ td:not([align]), th:not([align]) {
   text-align: left;
 }
 
-.header {
-  background: #579c87;
-  height: 245px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 7rem;
-}
-.header__heading {
-  color: #fdcb46;
+body {
+  max-width: 1280px;
+  margin: auto;
 }
 
 main {
   display: flex;
   flex-direction: column;
+}
+
+.btn {
+  height: 50px;
+  width: 250px;
+  margin: 50px;
+  border-radius: 10px;
+  align-self: center;
+  background: #579c87;
+  color: #fdcb46;
+  text-align: center;
 }
 
 .grid {
@@ -74,37 +78,40 @@ main {
   height: 758px;
   width: 538px;
   margin: 50px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 .grid__card--chic {
   background: #fff5fe;
   height: 758px;
   width: 538px;
   margin: 50px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 .grid__card--delice {
   background: #f9f9f9;
   height: 758px;
   width: 538px;
   margin: 50px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 .grid__card--palette {
   background: #fdfffd;
   height: 758px;
   width: 538px;
   margin: 50px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 
-.btn {
-  height: 11rem;
-  width: 65rem;
-  border-radius: 1.8rem;
-  border-style: none;
-  cursor: pointer;
+.header {
   background: #579c87;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7rem;
+}
+.header__heading {
   color: #fdcb46;
-  font-size: 4rem;
-  align-self: center;
-  margin: 50px;
 }
 
 .footer {
@@ -113,7 +120,7 @@ main {
   align-items: center;
   background: #579c87;
   color: #fdcb46;
-  height: 14rem;
+  height: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
