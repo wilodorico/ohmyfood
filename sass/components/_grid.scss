@@ -1,0 +1,23 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__card--note {
+        @include card (#fcdfdb);
+        @include shadow-card;
+    }
+    &__card--chic {
+        @include card (#fff5fe);
+        @include shadow-card;
+    }
+    &__card--delice {
+        @include card (#f9f9f9);
+        @include shadow-card;
+    }
+    &__card--palette {
+        @include card (#fdfffd);
+        @include shadow-card;
+
+    }
+}

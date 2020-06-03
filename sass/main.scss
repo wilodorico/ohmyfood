@@ -1,74 +1,18 @@
-@import "libs/reset.scss";
+@import "utils/variables";
+@import "utils/mixins";
+@import "base/reset";
+@import "base/base";
+@import "components/button";
+@import "components/grid.scss";
+@import "layouts/header";
+@import "layouts/footer";
 
-$color-primary: #579c87;
-$color-secondary: #fdcb46;
 
-@mixin card ($color: #ddd){
-    background: $color;
-    height: 758px;
-    width: 538px;
-    margin: 50px;
-}
 
-.header {
-    background: $color-primary;
-    height: 245px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 7rem;
-    &__heading {
-        color: $color-secondary;
-    }
-}
 
-main {
-    display: flex;
-    flex-direction: column;
-}
 
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 
-    &__card--note {
-        @include card (#fcdfdb);
-    }
-    &__card--chic {
-        @include card (#fff5fe);
-    }
-    &__card--delice {
-        @include card (#f9f9f9);
-    }
-    &__card--palette {
-        @include card (#fdfffd);
-    }
-}
 
-.btn {
-    height: 11rem;
-    width: 65rem;
-    border-radius: 1.8rem;
-    border-style: none;
-    cursor: pointer;
-    background: $color-primary;
-    color: $color-secondary;
-    font-size: 4rem;
-    align-self: center;
-    margin: 50px;
-}
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: $color-primary;
-    color: $color-secondary;
-    height: 14rem;
 
-    .bloc {
-        
-    }
-}
 
