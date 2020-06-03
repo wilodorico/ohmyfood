@@ -69,8 +69,26 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
-.grid .card {
+.grid__card--note {
   background: #fcdfdb;
+  height: 758px;
+  width: 538px;
+  margin: 50px;
+}
+.grid__card--chic {
+  background: #fff5fe;
+  height: 758px;
+  width: 538px;
+  margin: 50px;
+}
+.grid__card--delice {
+  background: #f9f9f9;
+  height: 758px;
+  width: 538px;
+  margin: 50px;
+}
+.grid__card--palette {
+  background: #fdfffd;
   height: 758px;
   width: 538px;
   margin: 50px;

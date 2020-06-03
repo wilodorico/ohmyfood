@@ -3,6 +3,13 @@
 $color-primary: #579c87;
 $color-secondary: #fdcb46;
 
+@mixin card ($color: #ddd){
+    background: $color;
+    height: 758px;
+    width: 538px;
+    margin: 50px;
+}
+
 .header {
     background: $color-primary;
     height: 245px;
@@ -25,11 +32,17 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 
-    .card {
-        background: #fcdfdb;
-        height: 758px;
-        width: 538px;
-        margin: 50px;
+    &__card--note {
+        @include card (#fcdfdb);
+    }
+    &__card--chic {
+        @include card (#fff5fe);
+    }
+    &__card--delice {
+        @include card (#f9f9f9);
+    }
+    &__card--palette {
+        @include card (#fdfffd);
     }
 }
 
