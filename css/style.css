@@ -55,25 +55,33 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .btn {
-  height: 50px;
-  width: 250px;
-  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 300px;
+  margin-bottom: 50px;
   border-radius: 10px;
   align-self: center;
   background: #579c87;
   color: #fdcb46;
-  text-align: center;
+  font-size: 2rem;
 }
 
 .grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .grid__card--note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   background: #fcdfdb;
   height: 758px;
   width: 538px;
@@ -81,6 +89,11 @@ main {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 .grid__card--chic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   background: #fff5fe;
   height: 758px;
   width: 538px;
@@ -88,6 +101,11 @@ main {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 .grid__card--delice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   background: #f9f9f9;
   height: 758px;
   width: 538px;
@@ -95,11 +113,24 @@ main {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 .grid__card--palette {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   background: #fdfffd;
   height: 758px;
   width: 538px;
   margin: 50px;
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+}
+
+.footer__bloc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-size: 2rem;
 }
 
 .header {
@@ -108,7 +139,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 7rem;
+  font-size: 5rem;
 }
 .header__heading {
   color: #fdcb46;
@@ -121,6 +152,21 @@ main {
   background: #579c87;
   color: #fdcb46;
   height: 150px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 5rem;
+}
+.menu__card {
+  display: flex;
+  justify-content: center;
+  background: #fcdfdb;
+  height: 1000px;
+  width: 800px;
+  margin: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

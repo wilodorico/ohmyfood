@@ -1,7 +1,6 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 
     &__card--note {
         @include card (#fcdfdb);
