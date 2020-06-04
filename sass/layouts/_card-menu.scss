@@ -1,0 +1,12 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: map-get($font-size, titre);
+
+    &__card {
+        @include menu-card(#fcdfdb);
+    }
+    
+
+}
