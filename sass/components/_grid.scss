@@ -1,10 +1,16 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: map-get($margin, medium);
+    
 
     &__card--note {
         @include card (#fcdfdb);
         @include shadow-card;
+        .fas {
+            font-size: 60px;
+        }
     }
     &__card--chic {
         @include card (#fff5fe);

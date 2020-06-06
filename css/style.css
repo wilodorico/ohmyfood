@@ -47,15 +47,16 @@ td:not([align]), th:not([align]) {
   text-align: left;
 }
 
-body {
-  max-width: 1280px;
-  margin: auto;
-}
-
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 1280px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
 }
 
 .btn {
@@ -64,7 +65,7 @@ main {
   align-items: center;
   height: 55px;
   width: 300px;
-  margin-bottom: 50px;
+  margin-bottom: 10%;
   border-radius: 10px;
   align-self: center;
   background: #579c87;
@@ -75,6 +76,8 @@ main {
 .grid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px;
 }
 .grid__card--note {
   display: flex;
@@ -83,10 +86,13 @@ main {
   justify-content: center;
   text-decoration: none;
   background: #fcdfdb;
-  height: 758px;
-  width: 538px;
-  margin: 50px;
+  height: 550px;
+  width: 400px;
+  margin: 25px;
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+}
+.grid__card--note .fas {
+  font-size: 60px;
 }
 .grid__card--chic {
   display: flex;
@@ -95,9 +101,9 @@ main {
   justify-content: center;
   text-decoration: none;
   background: #fff5fe;
-  height: 758px;
-  width: 538px;
-  margin: 50px;
+  height: 550px;
+  width: 400px;
+  margin: 25px;
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 .grid__card--delice {
@@ -107,9 +113,9 @@ main {
   justify-content: center;
   text-decoration: none;
   background: #f9f9f9;
-  height: 758px;
-  width: 538px;
-  margin: 50px;
+  height: 550px;
+  width: 400px;
+  margin: 25px;
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 .grid__card--palette {
@@ -119,9 +125,9 @@ main {
   justify-content: center;
   text-decoration: none;
   background: #fdfffd;
-  height: 758px;
-  width: 538px;
-  margin: 50px;
+  height: 550px;
+  width: 400px;
+  margin: 25px;
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 
@@ -135,7 +141,7 @@ main {
 
 .header {
   background: #579c87;
-  height: 200px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,24 +155,49 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   background: #579c87;
   color: #fdcb46;
-  height: 150px;
+  height: 80px;
+}
+.footer a {
+  color: #fdcb46;
 }
 
 .menu {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 5rem;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+}
+.menu h1 {
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: -30px;
 }
 .menu__card {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background: #fcdfdb;
-  height: 1000px;
-  width: 800px;
+  width: 60%;
   margin: 50px;
+  padding: 50px;
+}
+.menu__card-sous-titre {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.menu__card--entree {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.menu p {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
