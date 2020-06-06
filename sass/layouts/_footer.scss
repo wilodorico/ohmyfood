@@ -2,7 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     background: $color-primary;
     color: $color-secondary;
-    height: 150px;
+    height: 80px;
+    a {
+        color: $color-secondary;
+    }
 }

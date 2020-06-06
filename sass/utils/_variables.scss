@@ -3,7 +3,28 @@ $color-primary: #579c87;
 $color-secondary: #fdcb46;
 
 // font-size
-$font-size: (titre: 5rem, sous-titre: 4rem, label: 2rem);
+$font-size: (
+    titre: 5rem,
+    sous-titre: 4rem,
+    label: 2rem
+);
 
-//margin
-$margin: (bloc: 50px, titre: 20px, texte: 10px);
+//margin  
+$margin: (
+    large: 50px,
+    medium: 25px,
+    small: 10px
+);
+
+// padding
+$padding: (
+    large: 50px,
+    medium: 25px,
+    small: 10px
+);
+
+//breakpoint responsive
+$breakpoints: (
+    mobile: 599px,
+    tablette: 1024px
+);
