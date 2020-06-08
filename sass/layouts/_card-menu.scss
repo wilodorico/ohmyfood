@@ -1,22 +1,35 @@
 .menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-column;
     @include shadow-card;
-    
-    h1 {
-        font-size: map-get($font-size, label);
-        margin-top: 50px;
-        margin-bottom: -30px;
+    align-items: center;
+
+    .fas, h2 {
+        font-size: 50px;
     }
     &__card {
         @include menu-card(#fcdfdb);
     }
-    &__card-sous-titre {
-        @include titre;
-    }
     &__card--entree {
-        @include menu-details;
+        @include flex-column;
+        width: 100%;
+    }
+    &__card--titre {
+        text-align: center;
+    }
+    
+    &__card--details {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card--infos {
+        @include flex-column;
+        width: 80%;
+    }
+    &__card--prix {
+        @include flex-column;
+        align-items: flex-end;
+        width: 20%;
+        
     }
     p {
         margin: map-get($margin, small);

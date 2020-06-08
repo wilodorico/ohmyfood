@@ -3,26 +3,46 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: map-get($margin, medium);
-    
 
+    .transform-title-menu {
+        @include flex-column;
+        align-items: center;
+        transition: transform 450ms, opacity 400ms 150ms;
+        &:hover {
+            transform: scale(1.15);
+            opacity: 0.2;
+        }
+    }
+    &__card {
+        @include shadow-card;
+    }
     &__card--note {
         @include card (#fcdfdb);
-        @include shadow-card;
+        color: $color-note;
         .fas {
-            font-size: 60px;
+            @include degrade-text(to left, #f8a183, #f15861);
+            width: 52px;
+            height: 52px;
+            font-size: 50px;
         }
     }
     &__card--chic {
         @include card (#fff5fe);
-        @include shadow-card;
+        h2 {
+            @include degrade-text(to left, #905bfd, #c77412);
+        }
+
     }
     &__card--delice {
         @include card (#f9f9f9);
-        @include shadow-card;
+        h2 {
+            @include degrade-text(to left, #0887fb, #0431df); 
+        }  
     }
     &__card--palette {
         @include card (#fdfffd);
-        @include shadow-card;
-
+        h2 {
+            @include degrade-text(to left, #c8fe94, #3d9339); 
+        }
     }
 }

@@ -6,8 +6,10 @@
     width: 100%;
     bottom: 0;
     background: $color-primary;
-    color: $color-secondary;
     height: 80px;
+    &__bloc {
+        @include bloc-footer;
+    }
     a {
         color: $color-secondary;
     }
