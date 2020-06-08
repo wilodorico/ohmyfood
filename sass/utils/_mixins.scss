@@ -26,12 +26,6 @@
     width: 100%;
 }
 
-@mixin titre {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
 @mixin bloc-footer {
     display: flex;
     justify-content: center;
@@ -40,6 +34,17 @@
     font-size: map-get($font-size, label);
 }
 
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 @mixin shadow-card {
-    filter: drop-shadow(0 0 5px rgba(0,0,0,0.3))
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.3));
+}
+
+@mixin degrade-text ($direct: to left, $color1: #eee, $color2: #333){
+    background: linear-gradient($direct, $color1, $color2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
