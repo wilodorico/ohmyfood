@@ -1,0 +1,10 @@
+.grid__card--note {
+    @include card (#fcdfdb);
+    color: $color-text-note;
+    .fas {
+        @include degrade-text(to left, #f8a183, #f15861);
+        width: 52px;
+        height: 52px;
+        font-size: 50px;
+    }
+}

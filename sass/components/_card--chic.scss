@@ -1,0 +1,6 @@
+.grid__card--chic {
+    @include card (#fff5fe);
+    h2 {
+        @include degrade-text(to left, #905bfd, #c77412);
+    }
+}

@@ -16,33 +16,4 @@
     &__card {
         @include shadow-card;
     }
-    &__card--note {
-        @include card (#fcdfdb);
-        color: $color-note;
-        .fas {
-            @include degrade-text(to left, #f8a183, #f15861);
-            width: 52px;
-            height: 52px;
-            font-size: 50px;
-        }
-    }
-    &__card--chic {
-        @include card (#fff5fe);
-        h2 {
-            @include degrade-text(to left, #905bfd, #c77412);
-        }
-
-    }
-    &__card--delice {
-        @include card (#f9f9f9);
-        h2 {
-            @include degrade-text(to left, #0887fb, #0431df); 
-        }  
-    }
-    &__card--palette {
-        @include card (#fdfffd);
-        h2 {
-            @include degrade-text(to left, #c8fe94, #3d9339); 
-        }
-    }
 }
