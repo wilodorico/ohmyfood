@@ -1,0 +1,6 @@
+.grid__card--palette {
+    @include card (#fdfffd);
+    h2 {
+        @include degrade-text(to left, #c8fe94, #3d9339); 
+    }
+}

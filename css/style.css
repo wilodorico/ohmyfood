@@ -92,6 +92,7 @@ a {
 .grid__card {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
+
 .grid__card--note {
   display: flex;
   flex-direction: column;
@@ -112,6 +113,7 @@ a {
   height: 52px;
   font-size: 50px;
 }
+
 .grid__card--chic {
   display: flex;
   flex-direction: column;
@@ -128,6 +130,7 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .grid__card--delice {
   display: flex;
   flex-direction: column;
@@ -144,6 +147,7 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .grid__card--palette {
   display: flex;
   flex-direction: column;
