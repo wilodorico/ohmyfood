@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: map-get($font-size, titre);
+    font-size: map-get($font-size, logo);
     &__heading {
         color: $color-secondary;
     }

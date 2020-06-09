@@ -2,5 +2,12 @@
     @include card (#fff5fe);
     h2 {
         @include degrade-text(to left, #905bfd, #c77412);
+        font-family: $chic-font;
+        font-size: map-get($font-size, chic-titre);
+    }
+    h3 {
+        font-size: map-get($font-size, titre-menu);
+        color: $color-entree-chic;
+        font-weight: bold;
     }
 }

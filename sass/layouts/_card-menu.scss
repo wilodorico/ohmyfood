@@ -1,9 +1,18 @@
 .menu {
-    @include flex-column;
+    
     @include shadow-card;
     align-items: center;
+    color: $color-text-note;
+    margin-top: 50px;
+    .fas {
+        @include degrade-text(to left, #f8a183, #f15861);
+        width: 72px;
+        height: 72px;
+        font-size: 70px;
+    }
 
-    .fas, h2 {
+    h2 {
+        font-family: $note-font;
         font-size: 50px;
     }
     &__card {
