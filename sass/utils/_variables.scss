@@ -1,13 +1,41 @@
 // color
 $color-primary: #579c87;
 $color-secondary: #fdcb46;
+
+//color-note
 $color-text-note: #3c1218;
+
+//color-chic
+$color-entree-chic: #c67412;
+$color-plat-chic: #a56799;
+$color-dessert-chic: #6e4ccc;
+
+//color-delice
+$menu-delice: #0887fb;
+
+//color-palette
+$menu-palette: #72bf56;
+
+//Polices-note
+$note-font: 'Devonshire-Regular', sans-serif;
+$note-menu: 'sf_toontimeregular', sans-serif;
+
+//Police-Chic
+$chic-font: 'croissant_oneregular', sans-serif;
+
+//police delice et palette
+$delice-font: 'dancing_scriptregular',sans-serif;
+$palette-font: 'kaushan_scriptregular', sans-serif;
+$menu-font: 'worstveld_slingregular', sans-serif;
+$del-pal-text: 'ScriptME-New';
+
 
 // font-size
 $font-size: (
-    titre: 5rem,
-    sous-titre: 4rem,
-    label: 2rem
+    logo: 5rem,
+    titre-menu: 2.5rem,
+    titre: 2rem,
+    chic-titre: 1.5rem
 );
 
 //margin  
@@ -24,8 +52,6 @@ $padding: (
     small: 10px
 );
 
-//breakpoint responsive
-$breakpoints: (
-    mobile: 599px,
-    tablette: 1024px
-);
+//Media-queries
+$small-screen: "screen and (max-width: 540px)";
+$large-screen: "screen and (min-width: 740px)";
