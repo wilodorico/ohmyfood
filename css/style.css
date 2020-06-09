@@ -161,7 +161,7 @@ a {
   font-size: 50px;
 }
 .grid__card--note h2 {
-  font-family: "Devonshire-Regular", Helvetica, Arial, sans-serif;
+  font-family: "Devonshire-Regular";
   font-size: 2rem;
 }
 .grid__card--note h3 {
