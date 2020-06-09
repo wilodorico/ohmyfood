@@ -1,5 +1,4 @@
 .menu {
-    
     @include shadow-card;
     align-items: center;
     color: $color-text-note;
@@ -18,7 +17,7 @@
     &__card {
         @include menu-card(#fcdfdb);
     }
-    &__card--entree {
+    &__card--bloc {
         @include flex-column;
         width: 100%;
     }
