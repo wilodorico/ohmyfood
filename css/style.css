@@ -161,11 +161,11 @@ a {
   font-size: 50px;
 }
 .grid__card--note h2 {
-  font-family: "Devonshire-Regular", sans-serif;
+  font-family: Devonshire-Regular, sans-serif;
   font-size: 2rem;
 }
 .grid__card--note h3 {
-  font-family: "sf_toontimeregular", sans-serif;
+  font-family: sf_toontimeregular, sans-serif;
   text-transform: uppercase;
   font-size: 2.5rem;
 }
@@ -185,7 +185,7 @@ a {
   background: linear-gradient(to left, #905bfd, #c77412);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "croissant_oneregular", sans-serif;
+  font-family: croissant_oneregular, sans-serif;
   font-size: 1.5rem;
 }
 .grid__card--chic h3 {
@@ -209,11 +209,11 @@ a {
   background: linear-gradient(to left, #0887fb, #0431df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "dancing_scriptregular", sans-serif;
+  font-family: dancing_scriptregular, sans-serif;
   font-size: 2.5rem;
 }
 .grid__card--delice h3 {
-  font-family: "worstveld_slingregular", sans-serif;
+  font-family: worstveld_slingregular, sans-serif;
   font-size: 5rem;
   color: #0887fb;
   font-weight: bold;
@@ -234,11 +234,11 @@ a {
   background: linear-gradient(to left, #c8fe94, #3d9339);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "kaushan_scriptregular", sans-serif;
+  font-family: kaushan_scriptregular, sans-serif;
   font-size: 2.5rem;
 }
 .grid__card--palette h3 {
-  font-family: "worstveld_slingregular", sans-serif;
+  font-family: worstveld_slingregular, sans-serif;
   font-size: 5rem;
   color: #72bf56;
   font-weight: bold;
@@ -292,7 +292,7 @@ a {
   font-size: 70px;
 }
 .menu h2 {
-  font-family: "Devonshire-Regular", sans-serif;
+  font-family: Devonshire-Regular, sans-serif;
   font-size: 50px;
 }
 .menu__card {
