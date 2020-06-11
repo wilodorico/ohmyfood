@@ -1,7 +1,7 @@
 .grid__card--chic {
     @include card (#fff5fe);
     h2 {
-        @include degrade-text(to left, #905bfd, #c77412);
+        @include degrade-text(to left, $chic-dessert-color, $chic-entree-color);
         font-family: $chic-font;
         font-size: map-get($font-size, chic-titre);
     }

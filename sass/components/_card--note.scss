@@ -1,7 +1,7 @@
 .grid__card--note {
     @include card ($note-back-color);
     color: $note-text-color;
-    .fas {
+    .fa-music {
         @include degrade-text(to left, $note-degrade1, $note-degrade2);
         width: 52px;
         height: 52px;
