@@ -48,3 +48,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@keyframes wiggle {
+    0% { transform: rotate(0.8deg); }
+    50% { transform: rotate(-0.8deg); }
+    100% { transform: rotate(0.8deg); }
+  }
