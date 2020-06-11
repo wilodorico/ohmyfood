@@ -12,5 +12,10 @@
     }
     a {
         color: $color-secondary;
+        &:hover {
+            animation: wiggle 90ms infinite;
+            animation-timing-function: linear;
+        }
     }
+    
 }

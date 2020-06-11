@@ -10,4 +10,10 @@
     background: $color-primary;
     color: $color-secondary;
     font-size: map-get($font-size, titre);
+    p {
+        &:after {
+            content:"...";
+            
+        }
+    }
 }

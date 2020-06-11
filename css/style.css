@@ -1,3 +1,14 @@
+@keyframes wiggle {
+  0% {
+    transform: rotate(0.8deg);
+  }
+  50% {
+    transform: rotate(-0.8deg);
+  }
+  100% {
+    transform: rotate(0.8deg);
+  }
+}
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -119,6 +130,9 @@ a {
   color: #fdcb46;
   font-size: 2rem;
 }
+.btn p:after {
+  content: "...";
+}
 
 .grid {
   display: flex;
@@ -134,7 +148,7 @@ a {
 }
 .grid .transform-title-menu:hover {
   transform: scale(1.15);
-  opacity: 0.2;
+  opacity: 0.4;
 }
 .grid__card {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
@@ -275,6 +289,10 @@ a {
 }
 .footer a {
   color: #fdcb46;
+}
+.footer a:hover {
+  animation: wiggle 90ms infinite;
+  animation-timing-function: linear;
 }
 
 .menu {
