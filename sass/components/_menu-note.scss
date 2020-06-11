@@ -1,0 +1,14 @@
+.menu--note {
+    @include menu-card($note-back-color);
+    color: $note-text-color;
+    .fa-music {
+        @include degrade-text(to left, $note-degrade1, $note-degrade2);
+        width: 72px;
+        height: 72px;
+        font-size: 70px;
+    }
+    h2 {
+        font-family: $note-font;
+        font-size: 50px;
+    }
+}

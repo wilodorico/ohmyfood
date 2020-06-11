@@ -220,7 +220,7 @@ a {
   margin: 25px;
 }
 .grid__card--delice h2 {
-  background: linear-gradient(to left, #0887fb, #0431df);
+  background: linear-gradient(to left, #0687fb, #0431df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "dancing_scriptregular", Helvetica, Arial, sans-serif;
@@ -256,6 +256,44 @@ a {
   font-size: 5rem;
   color: #72bf56;
   font-weight: bold;
+}
+
+.menu--note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fcdfdb;
+  width: 60%;
+  margin: 50px;
+  padding: 50px;
+  color: #3c1218;
+}
+.menu--note .fa-music {
+  background: linear-gradient(to left, #f8a183, #f15861);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 72px;
+  height: 72px;
+  font-size: 70px;
+}
+.menu--note h2 {
+  font-family: "Devonshire-Regular", Helvetica, Arial, sans-serif;
+  font-size: 50px;
+}
+
+.menu__card--chic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff5fe;
+  width: 60%;
+  margin: 50px;
+  padding: 50px;
+  color: #3c1218;
+}
+.menu__card--chic h2 {
+  font-family: "Devonshire-Regular", Helvetica, Arial, sans-serif;
+  font-size: 50px;
 }
 
 .header {
@@ -298,37 +336,12 @@ a {
 .menu {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
   align-items: center;
-  color: #3c1218;
   margin-top: 50px;
-}
-.menu .fas {
-  background: linear-gradient(to left, #f8a183, #f15861);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  width: 72px;
-  height: 72px;
-  font-size: 70px;
-}
-.menu h2 {
-  font-family: "Devonshire-Regular", Helvetica, Arial, sans-serif;
-  font-size: 50px;
-}
-.menu__card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #fcdfdb;
-  width: 60%;
-  margin: 50px;
-  padding: 50px;
 }
 .menu__card--bloc {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-.menu__card--titre {
-  text-align: center;
 }
 .menu__card--details {
   display: flex;
@@ -347,6 +360,42 @@ a {
 }
 .menu p {
   margin: 10px;
+}
+.menu .titre-bottom {
+  display: flex;
+}
+.menu .titre-bottom .fa-music {
+  width: 30px;
+  height: 30px;
+  font-size: 28px;
+  margin-right: 30px;
+}
+.menu .titre-bottom h4 {
+  font-size: 2rem;
+}
+
+.card-titre {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+.card-titre__hrnote {
+  margin: -15px;
+  color: #3c1218;
+  height: 5px;
+  background-color: #3c1218;
+}
+.card-titre h3 {
+  font-size: 1.5rem;
+  width: 200px;
+  margin: auto;
+  background-color: #fcdfdb;
+}
+.card-titre__hrchic {
+  margin: -15px;
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 /*# sourceMappingURL=style.css.map */

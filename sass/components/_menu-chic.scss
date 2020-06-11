@@ -1,0 +1,8 @@
+.menu__card--chic {
+    @include menu-card($chic-back-color);
+    color: $note-text-color;
+    h2 {
+        font-family: $note-font;
+        font-size: 50px;
+    }
+}
