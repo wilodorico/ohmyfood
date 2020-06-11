@@ -11,7 +11,7 @@
         @include bloc-footer;
     }
     a {
-        color: $color-secondary;
+        color: $color-text-hf;
         &:hover {
             animation: wiggle 90ms infinite;
             animation-timing-function: linear;

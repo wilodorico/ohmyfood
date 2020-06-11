@@ -1,14 +1,14 @@
 .grid__card--palette {
     @include card (#fdfffd);
     h2 {
-        @include degrade-text(to left, #c8fe94, #3d9339);
+        @include degrade-text(to left, $palette-degrade1, $palette-degrade2);
         font-family: $palette-font;
         font-size: map-get($font-size, titre-menu);
     }
     h3 {
         font-family: $menu-font;
         font-size: map-get($font-size, logo);
-        color: $menu-palette;
+        color: $palette-text-color;
         font-weight: bold; 
     }
 }

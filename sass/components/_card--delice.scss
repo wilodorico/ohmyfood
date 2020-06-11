@@ -1,14 +1,14 @@
 .grid__card--delice {
     @include card (#f9f9f9);
     h2 {
-        @include degrade-text(to left, #0887fb, #0431df);
+        @include degrade-text(to left, $delice-degrade1, $delice-degrade2);
         font-family: $delice-font;
         font-size: map-get($font-size, titre-menu);
     }
     h3 {
         font-family: $menu-font;
         font-size: map-get($font-size, logo);
-        color: $menu-delice;
+        color: $delice-text-color;
         font-weight: bold; 
     }  
 }

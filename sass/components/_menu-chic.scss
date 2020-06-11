@@ -1,0 +1,18 @@
+.menu__card--chic {
+    @include menu-card($chic-back-color);
+    h2 {
+        @include degrade-text(to left, $chic-dessert-color, $chic-entree-color);
+        font-family: $chic-font;
+        font-size: 2rem;
+    }
+    .hr-chic {
+        margin: -15px;
+        @include sep-chic;
+    }
+    h3 {
+        font-size: 1.5rem;
+        width: 300px;
+        margin: auto;
+        @include ajust-titre ($chic-back-color)
+    }
+}

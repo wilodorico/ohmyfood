@@ -6,6 +6,6 @@
     align-items: center;
     font-size: map-get($font-size, logo);
     &__heading {
-        color: $color-secondary;
+        color: $color-text-hf;
     }
 }
