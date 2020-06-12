@@ -133,6 +133,7 @@ main {
   justify-content: center;
   max-width: 1280px;
   margin: auto;
+  margin-bottom: 130px;
 }
 
 a {
@@ -151,7 +152,6 @@ p {
   justify-content: center;
   height: 55px;
   width: 300px;
-  margin-bottom: 130px;
   border-radius: 10px;
   background: #579c87;
   color: #fdcb46;
@@ -447,7 +447,6 @@ p {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
   align-items: center;
   margin-top: 50px;
-  margin-bottom: 130px;
 }
 .menu__card--bloc {
   display: flex;
