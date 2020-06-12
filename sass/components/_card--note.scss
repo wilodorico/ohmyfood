@@ -1,4 +1,4 @@
-.grid__card--note {
+.card--note {
     @include card ($note-back-color);
     color: $note-text-color;
     .fa-music {
