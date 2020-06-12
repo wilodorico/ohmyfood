@@ -2,7 +2,6 @@
     @include shadow-card;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 130px;
     &__card--bloc {
         @include flex-column;
         width: 100%;
