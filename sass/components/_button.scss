@@ -10,11 +10,13 @@
     background: $color-primary;
     color: $color-text-hf;
     font-size: map-get($font-size, titre);
-    &__loading {
-        width: 5px;
-        &::after {
-            animation: loading steps(1,end) 1400ms infinite;
-            content: '';
-        }   
-    } 
+    &__one {
+        @include loading;
+    }
+    &__two {
+        @include loading ($delay: 0.2s);
+    }
+    &__three {
+        @include loading ($delay: 0.3s);
+    }
 }
