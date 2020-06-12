@@ -9,21 +9,26 @@
     transform: rotate(0.8deg);
   }
 }
-@keyframes loading {
+@-webkit-keyframes dot {
   0% {
-    content: "";
-  }
-  25% {
-    content: ".";
+    opacity: 0;
   }
   50% {
-    content: "..";
-  }
-  75% {
-    content: "...";
+    opacity: 0;
   }
   100% {
-    content: "";
+    opacity: 1;
+  }
+}
+@keyframes dot {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
@@ -152,12 +157,26 @@ p {
   color: #fdcb46;
   font-size: 2rem;
 }
-.btn__loading {
-  width: 5px;
+.btn__one {
+  opacity: 0;
+  -webkit-animation: dot 1.4s infinite;
+  -webkit-animation-delay: 0s;
+  animation: dot 1.4s infinite;
+  animation-delay: 0s;
 }
-.btn__loading::after {
-  animation: loading steps(1, end) 1400ms infinite;
-  content: "";
+.btn__two {
+  opacity: 0;
+  -webkit-animation: dot 1.4s infinite;
+  -webkit-animation-delay: 0.2s;
+  animation: dot 1.4s infinite;
+  animation-delay: 0.2s;
+}
+.btn__three {
+  opacity: 0;
+  -webkit-animation: dot 1.4s infinite;
+  -webkit-animation-delay: 0.3s;
+  animation: dot 1.4s infinite;
+  animation-delay: 0.3s;
 }
 
 .grid {
