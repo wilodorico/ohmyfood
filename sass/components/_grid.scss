@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: map-get($margin, medium);
+    margin: 25px;
 
     .transform-title-menu {
         @include flex-column;

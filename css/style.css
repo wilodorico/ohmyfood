@@ -310,7 +310,7 @@ p {
   background: #fcdfdb;
   width: 60%;
   margin: 50px;
-  padding: 50px;
+  padding: 80px 50px;
   color: #3c1218;
 }
 .menu--note .fa-music {
@@ -363,7 +363,7 @@ p {
   background: #fff5fe;
   width: 60%;
   margin: 50px;
-  padding: 50px;
+  padding: 80px 50px;
 }
 .menu__chic .chic--entrees {
   color: #c67412;
@@ -380,6 +380,7 @@ p {
   -webkit-text-fill-color: transparent;
   font-family: "croissant_oneregular", Helvetica, Arial, sans-serif;
   font-size: 2rem;
+  margin: 30px;
 }
 .menu__chic .hr-chic--entrees {
   margin: -19px;
