@@ -13,6 +13,7 @@
         @include degrade-text(to left, $chic-dessert-color, $chic-entree-color);
         font-family: $chic-font;
         font-size: 2rem;
+        margin: 30px;
     }
     .hr-chic--entrees {
         @include sep-chic;

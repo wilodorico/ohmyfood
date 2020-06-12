@@ -16,8 +16,8 @@
     align-items: center;
     background: $color;
     width: 60%;
-    margin: map-get($margin, large);
-    padding: map-get($padding, large)
+    margin: 50px;
+    padding: 80px 50px;
 }
 
 @mixin ajust-titre ($color: transparent){
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: map-get($margin, large);
+    margin: 50px;
     font-size: map-get($font-size, titre);
 }
 
