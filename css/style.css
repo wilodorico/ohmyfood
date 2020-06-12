@@ -9,6 +9,23 @@
     transform: rotate(0.8deg);
   }
 }
+@keyframes loading {
+  0% {
+    content: "";
+  }
+  25% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  75% {
+    content: "...";
+  }
+  100% {
+    content: "";
+  }
+}
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -117,21 +134,30 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 8px;
+  font-size: 0.9rem;
+}
+
 .btn {
   display: flex;
-  justify-content: center;
+  align-self: center;
   align-items: center;
+  justify-content: center;
   height: 55px;
   width: 300px;
-  margin-bottom: 10%;
+  margin-bottom: 130px;
   border-radius: 10px;
-  align-self: center;
   background: #579c87;
   color: #fdcb46;
   font-size: 2rem;
 }
-.btn p:after {
-  content: "...";
+.btn__loading {
+  width: 5px;
+}
+.btn__loading::after {
+  animation: loading steps(1, end) 1400ms infinite;
+  content: "";
 }
 
 .grid {
@@ -276,13 +302,17 @@ a {
   height: 72px;
   font-size: 70px;
 }
-.menu--note h2 {
+.menu--note h2, .menu--note h4 {
   font-family: "Devonshire-Regular", Helvetica, Arial, sans-serif;
-  font-size: 50px;
+  font-size: 4rem;
+}
+.menu--note h3, .menu--note p {
+  font-family: "Segoe Print", Tahoma, Geneva, Verdana, sans-serif;
 }
 .menu--note h3 {
-  font-size: 1.5rem;
-  width: 200px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 250px;
   margin: auto;
   background-color: #fcdfdb;
 }
@@ -298,7 +328,7 @@ a {
   margin-right: 5px;
 }
 .menu--note .titre-bottom h4 {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 .menu__card--chic {
@@ -385,26 +415,24 @@ a {
 .menu__card--infos {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 85%;
 }
 .menu__card--prix {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: 20%;
-}
-.menu p {
-  margin: 10px;
+  width: 15%;
+  font-weight: bold;
 }
 
 .card-titre {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 80px;
   margin-bottom: 25px;
 }
 .card-titre__hrnote {
-  margin: -15px;
-  color: #3c1218;
+  margin: -25px;
+  border: 0;
   height: 5px;
   background-color: #3c1218;
 }
