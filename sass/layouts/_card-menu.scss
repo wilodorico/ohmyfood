@@ -14,15 +14,12 @@
     }
     &__card--infos {
         @include flex-column;
-        width: 80%;
+        width: 85%;
     }
     &__card--prix {
         @include flex-column;
         align-items: flex-end;
-        width: 20%;
-        
-    }
-    p {
-        margin: map-get($margin, small);
+        width: 15%;
+        font-weight: bold;
     }
 }
