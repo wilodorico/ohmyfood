@@ -141,7 +141,7 @@ a {
 
 p {
   margin: 8px;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .btn {
@@ -199,7 +199,7 @@ p {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 
-.grid__card--note {
+.card--note {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -211,7 +211,7 @@ p {
   margin: 25px;
   color: #3c1218;
 }
-.grid__card--note .fa-music {
+.card--note .fa-music {
   background: linear-gradient(to left, #f8a183, #f15861);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -219,17 +219,17 @@ p {
   height: 52px;
   font-size: 50px;
 }
-.grid__card--note h2 {
+.card--note h2 {
   font-family: "Devonshire-Regular", Helvetica, Arial, sans-serif;
   font-size: 2rem;
 }
-.grid__card--note h3 {
+.card--note h3 {
   font-family: "sf_toontimeregular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 2.5rem;
 }
 
-.grid__card--chic {
+.card--chic {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -240,20 +240,20 @@ p {
   width: 400px;
   margin: 25px;
 }
-.grid__card--chic h2 {
+.card--chic h2 {
   background: linear-gradient(to left, #6e4ccc, #c67412);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "croissant_oneregular", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
 }
-.grid__card--chic h3 {
+.card--chic h3 {
   font-size: 2.5rem;
   color: #c67412;
   font-weight: bold;
 }
 
-.grid__card--delice {
+.card--delice {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -264,21 +264,21 @@ p {
   width: 400px;
   margin: 25px;
 }
-.grid__card--delice h2 {
+.card--delice h2 {
   background: linear-gradient(to left, #0687fb, #0431df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "dancing_scriptregular", Helvetica, Arial, sans-serif;
   font-size: 2.5rem;
 }
-.grid__card--delice h3 {
+.card--delice h3 {
   font-family: "worstveld_slingregular", Helvetica, Arial, sans-serif;
   font-size: 5rem;
   color: #0887fb;
   font-weight: bold;
 }
 
-.grid__card--palette {
+.card--palette {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -289,14 +289,14 @@ p {
   width: 400px;
   margin: 25px;
 }
-.grid__card--palette h2 {
+.card--palette h2 {
   background: linear-gradient(to left, #c8fe94, #3d9339);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "kaushan_scriptregular", Helvetica, Arial, sans-serif;
   font-size: 2.5rem;
 }
-.grid__card--palette h3 {
+.card--palette h3 {
   font-family: "worstveld_slingregular", Helvetica, Arial, sans-serif;
   font-size: 5rem;
   color: #72bf56;
@@ -320,6 +320,12 @@ p {
   width: 72px;
   height: 72px;
   font-size: 70px;
+}
+.menu--note .hr--note {
+  margin: -25px;
+  border: 0;
+  height: 5px;
+  background-color: #3c1218;
 }
 .menu--note h2, .menu--note h4 {
   font-family: "Devonshire-Regular", Helvetica, Arial, sans-serif;
@@ -350,7 +356,7 @@ p {
   font-size: 2.3rem;
 }
 
-.menu__card--chic {
+.menu__chic {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -359,20 +365,41 @@ p {
   margin: 50px;
   padding: 50px;
 }
-.menu__card--chic h2 {
+.menu__chic .chic--entrees {
+  color: #c67412;
+}
+.menu__chic .chic--plats {
+  color: #a56799;
+}
+.menu__chic .chic--desserts {
+  color: #6e4ccc;
+}
+.menu__chic h2 {
   background: linear-gradient(to left, #6e4ccc, #c67412);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "croissant_oneregular", Helvetica, Arial, sans-serif;
   font-size: 2rem;
 }
-.menu__card--chic .hr-chic {
-  margin: -15px;
+.menu__chic .hr-chic--entrees {
+  margin: -19px;
   border: 0;
   height: 5px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(198, 116, 18, 0.75), rgba(0, 0, 0, 0));
 }
-.menu__card--chic h3 {
+.menu__chic .hr-chic--plats {
+  margin: -19px;
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(165, 103, 153, 0.75), rgba(0, 0, 0, 0));
+}
+.menu__chic .hr-chic--desserts {
+  margin: -19px;
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(110, 76, 204, 0.75), rgba(0, 0, 0, 0));
+}
+.menu__chic h3 {
   font-size: 1.5rem;
   width: 300px;
   margin: auto;
@@ -427,6 +454,11 @@ p {
   flex-direction: column;
   width: 100%;
 }
+.menu__card--titre {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
 .menu__card--details {
   display: flex;
   justify-content: space-between;
@@ -442,18 +474,6 @@ p {
   align-items: flex-end;
   width: 15%;
   font-weight: bold;
-}
-
-.card-titre {
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 25px;
-}
-.card-titre__hrnote {
-  margin: -25px;
-  border: 0;
-  height: 5px;
-  background-color: #3c1218;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-.grid__card--palette {
+.card--palette {
     @include card (#fdfffd);
     h2 {
         @include degrade-text(to left, $palette-degrade1, $palette-degrade2);

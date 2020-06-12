@@ -1,13 +1,27 @@
-.menu__card--chic {
+.menu__chic {
     @include menu-card($chic-back-color);
+    .chic--entrees {
+        color: $chic-entree-color;
+    }
+    .chic--plats {
+        color: $chic-plat-color;
+    }
+    .chic--desserts {
+        color: $chic-dessert-color;
+    }
     h2 {
         @include degrade-text(to left, $chic-dessert-color, $chic-entree-color);
         font-family: $chic-font;
         font-size: 2rem;
     }
-    .hr-chic {
-        margin: -15px;
+    .hr-chic--entrees {
         @include sep-chic;
+    }
+    .hr-chic--plats {
+        @include sep-chic ($chic-plat-rgba);
+    }
+    .hr-chic--desserts {
+        @include sep-chic ($chic-dessert-rgba);
     }
     h3 {
         font-size: 1.5rem;

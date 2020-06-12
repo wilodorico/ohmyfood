@@ -1,4 +1,4 @@
-.grid__card--delice {
+.card--delice {
     @include card (#f9f9f9);
     h2 {
         @include degrade-text(to left, $delice-degrade1, $delice-degrade2);

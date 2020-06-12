@@ -1,4 +1,4 @@
-.grid__card--chic {
+.card--chic {
     @include card (#fff5fe);
     h2 {
         @include degrade-text(to left, $chic-dessert-color, $chic-entree-color);
