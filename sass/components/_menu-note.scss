@@ -18,12 +18,15 @@
     h3, p {
         font-family: $note-text;
     }
-    h3 {
+    .titre {
         font-size: 1.4rem;
-        font-weight: bold;
         width: 250px;
         margin: auto;
         @include ajust-titre ($note-back-color);
+        &--sousligne{
+            @include sous-ligne;
+            font-weight: bold;
+        }
     }
     .titre-bottom {
         display: flex;

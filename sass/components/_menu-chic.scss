@@ -24,10 +24,22 @@
     .hr-chic--desserts {
         @include sep-chic ($chic-dessert-rgba);
     }
-    h3 {
+    .titre {
         font-size: 1.5rem;
         width: 300px;
         margin: auto;
-        @include ajust-titre ($chic-back-color)
+        @include ajust-titre ($chic-back-color);
+        &--sousligne-entree {
+            @include sous-ligne ($chic-entree-color);
+            padding: 3px;
+        }
+        &--sousligne-plat {
+            @include sous-ligne ($chic-plat-color);
+            padding: 3px;
+        }
+        &--sousligne-dessert {
+            @include sous-ligne ($chic-dessert-color);
+            padding: 3px;
+        }
     }
 }
