@@ -219,11 +219,11 @@ p {
   height: 52px;
   font-size: 50px;
 }
-.card--note h2 {
+.card--note h1 {
   font-family: "Devonshire-Regular", Helvetica, Arial, sans-serif;
   font-size: 2rem;
 }
-.card--note h3 {
+.card--note h2 {
   font-family: "sf_toontimeregular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -240,14 +240,14 @@ p {
   width: 400px;
   margin: 25px;
 }
-.card--chic h2 {
+.card--chic h1 {
   background: linear-gradient(to left, #6e4ccc, #c67412);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "croissant_oneregular", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
 }
-.card--chic h3 {
+.card--chic h2 {
   font-size: 2.5rem;
   color: #c67412;
   font-weight: bold;
@@ -264,14 +264,14 @@ p {
   width: 400px;
   margin: 25px;
 }
-.card--delice h2 {
+.card--delice h1 {
   background: linear-gradient(to left, #0687fb, #0431df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "dancing_scriptregular", Helvetica, Arial, sans-serif;
   font-size: 2.5rem;
 }
-.card--delice h3 {
+.card--delice h2 {
   font-family: "worstveld_slingregular", Helvetica, Arial, sans-serif;
   font-size: 5rem;
   color: #0887fb;
@@ -289,14 +289,14 @@ p {
   width: 400px;
   margin: 25px;
 }
-.card--palette h2 {
+.card--palette h1 {
   background: linear-gradient(to left, #c8fe94, #3d9339);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "kaushan_scriptregular", Helvetica, Arial, sans-serif;
   font-size: 2.5rem;
 }
-.card--palette h3 {
+.card--palette h2 {
   font-family: "worstveld_slingregular", Helvetica, Arial, sans-serif;
   font-size: 5rem;
   color: #72bf56;
@@ -334,12 +334,21 @@ p {
 .menu--note h3, .menu--note p {
   font-family: "Segoe Print", Tahoma, Geneva, Verdana, sans-serif;
 }
-.menu--note h3 {
+.menu--note .titre {
   font-size: 1.4rem;
-  font-weight: bold;
   width: 250px;
   margin: auto;
   background-color: #fcdfdb;
+}
+.menu--note .titre--sousligne {
+  display: inline;
+  background: linear-gradient(to top, #3c1218 0%, #3c1218 5%, transparent 1px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+  font-weight: bold;
+}
+.menu--note .titre--sousligne:hover {
+  background-size: 100% 100%;
 }
 .menu--note .titre-bottom {
   display: flex;
@@ -400,11 +409,41 @@ p {
   height: 5px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(110, 76, 204, 0.75), rgba(0, 0, 0, 0));
 }
-.menu__chic h3 {
+.menu__chic .titre {
   font-size: 1.5rem;
   width: 300px;
   margin: auto;
   background-color: #fff5fe;
+}
+.menu__chic .titre--sousligne-entree {
+  display: inline;
+  background: linear-gradient(to top, #c67412 0%, #c67412 5%, transparent 1px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+  padding: 3px;
+}
+.menu__chic .titre--sousligne-entree:hover {
+  background-size: 100% 100%;
+}
+.menu__chic .titre--sousligne-plat {
+  display: inline;
+  background: linear-gradient(to top, #a56799 0%, #a56799 5%, transparent 1px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+  padding: 3px;
+}
+.menu__chic .titre--sousligne-plat:hover {
+  background-size: 100% 100%;
+}
+.menu__chic .titre--sousligne-dessert {
+  display: inline;
+  background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 5%, transparent 1px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+  padding: 3px;
+}
+.menu__chic .titre--sousligne-dessert:hover {
+  background-size: 100% 100%;
 }
 
 .header {
