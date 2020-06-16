@@ -1,5 +1,5 @@
 .delice {
-    @include menu-card($delice-back-color);
+    @include menu-card($delice-back-menu-color);
     h2 {
         @include degrade-text(to left, $delice-degrade1, $delice-degrade2);
         font-family: $delice-font;
@@ -26,7 +26,7 @@
         margin: auto;
         font-size: 1.1rem;
         
-        @include ajust-titre ($delice-back-color);
+        @include ajust-titre ($delice-back-menu-color);
         &--sousligne-entree {
             @include sous-ligne ($delice-entree-color);
         }
