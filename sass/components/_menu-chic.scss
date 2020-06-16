@@ -1,5 +1,6 @@
 .chic {
     @include menu-card($chic-back-color);
+    
     &--entrees {
         color: $chic-entree-color;
     }
@@ -23,6 +24,9 @@
     }
     .hr-chic--desserts {
         @include sep-chic ($chic-dessert-color);
+    }
+    .menu__card--titre {
+        margin-bottom: 0;
     }
     .titre {
         position: relative;
