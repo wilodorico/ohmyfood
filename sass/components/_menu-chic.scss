@@ -1,32 +1,34 @@
-.menu__chic {
+.chic {
     @include menu-card($chic-back-color);
-    .chic--entrees {
+    &--entrees {
         color: $chic-entree-color;
     }
-    .chic--plats {
+    &--plats {
         color: $chic-plat-color;
     }
-    .chic--desserts {
+    &--desserts {
         color: $chic-dessert-color;
     }
     h2 {
-        @include degrade-text(to left, $chic-dessert-color, $chic-entree-color);
+        @include degrade-text(to left, $chic-degrade1, $chic-entree-color);
         font-family: $chic-font;
         font-size: 2rem;
         margin: 30px;
     }
     .hr-chic--entrees {
-        @include sep-chic;
+        @include sep-chic ($chic-entree-color);
     }
     .hr-chic--plats {
-        @include sep-chic ($chic-plat-rgba);
+        @include sep-chic ($chic-plat-color);
     }
     .hr-chic--desserts {
-        @include sep-chic ($chic-dessert-rgba);
+        @include sep-chic ($chic-dessert-color);
     }
     .titre {
+        position: relative;
+        top: -45px;
         font-size: 1.5rem;
-        width: 300px;
+        width: 40%;
         margin: auto;
         @include ajust-titre ($chic-back-color);
         &--sousligne-entree {

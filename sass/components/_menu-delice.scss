@@ -1,0 +1,39 @@
+.delice {
+    @include menu-card($delice-back-color);
+    h2 {
+        @include degrade-text(to left, $delice-degrade1, $delice-degrade2);
+        font-family: $delice-font;
+        font-size: 4rem;
+        margin: 30px;
+    }
+    h3, p {
+        font-family: $note-text;
+    }
+    .hr-delice--entrees {
+        @include sep-delice ($delice-entree-color);
+    }
+    .hr-delice--plats {
+        @include sep-delice ($delice-plats-color);
+    }
+    .hr-delice--desserts {
+        @include sep-delice ($delice-dessert-color);
+    }
+    .titre {
+        position: relative;
+        top: -18px;
+        width: 40%;
+        margin: auto;
+        font-size: 1.1rem;
+        
+        @include ajust-titre ($delice-back-color);
+        &--sousligne-entree {
+            @include sous-ligne ($delice-entree-color);
+        }
+        &--sousligne-plat {
+            @include sous-ligne ($delice-plats-color);
+        }
+        &--sousligne-dessert {
+            @include sous-ligne ($delice-dessert-color);
+        }
+    }
+}
