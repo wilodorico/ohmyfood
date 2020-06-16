@@ -16,14 +16,10 @@
         display: flex;
         justify-content: space-between;
     }
-    &__card--infos {
+    &__card--desserts {
         @include flex-column;
-        width: 85%;
     }
-    &__card--prix {
-        @include flex-column;
-        align-items: flex-end;
-        width: 15%;
+    &__prix {
         font-weight: bold;
     }
 }

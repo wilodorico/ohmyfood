@@ -394,6 +394,10 @@ p {
   font-size: 2rem;
   margin: 30px;
 }
+.chic h3 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
 .chic .hr-chic--entrees {
   overflow: visible;
   /* For IE */
@@ -497,7 +501,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #f9f9f9;
+  background: #edefef;
   width: 60%;
   margin: 50px;
   padding: 80px 50px;
@@ -550,7 +554,7 @@ p {
   width: 40%;
   margin: auto;
   font-size: 1.1rem;
-  background-color: #f9f9f9;
+  background-color: #edefef;
 }
 .delice .titre--sousligne-entree {
   display: inline;
@@ -690,16 +694,11 @@ p {
   display: flex;
   justify-content: space-between;
 }
-.menu__card--infos {
+.menu__card--desserts {
   display: flex;
   flex-direction: column;
-  width: 85%;
 }
-.menu__card--prix {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 15%;
+.menu__prix {
   font-weight: bold;
 }
 
