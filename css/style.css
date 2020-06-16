@@ -448,6 +448,9 @@ p {
   border-width: 0 0 2px 0;
   border-radius: 20px;
 }
+.chic .menu__card--titre {
+  margin-bottom: 0;
+}
 .chic .titre {
   position: relative;
   top: -45px;
