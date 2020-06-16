@@ -270,6 +270,7 @@ p {
   -webkit-text-fill-color: transparent;
   font-family: "dancing_scriptregular", Helvetica, Arial, sans-serif;
   font-size: 2.5rem;
+  padding: 5px;
 }
 .card--delice h2 {
   font-family: "worstveld_slingregular", Helvetica, Arial, sans-serif;
@@ -506,6 +507,7 @@ p {
   font-family: "dancing_scriptregular", Helvetica, Arial, sans-serif;
   font-size: 4rem;
   margin: 30px;
+  padding: 5px;
 }
 .delice h3, .delice p {
   font-family: "Segoe Print", Tahoma, Geneva, Verdana, sans-serif;
