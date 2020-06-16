@@ -11,18 +11,21 @@ $note-degrade2: #f15861;
 //color-chic
 $chic-back-color: #fff5fe;
 $chic-entree-color: #c67412;
-$chic-entree-rgba: rgba(198,116,18,0.75);
 $chic-plat-color: #a56799;
-$chic-plat-rgba: rgba(165,103,153,0.75);
 $chic-dessert-color: #6e4ccc;
-$chic-dessert-rgba: rgba(110,76,204,0.75);
+$chic-degrade1: #8f5bfe;
 
 //color-delice
+$delice-back-color: #f9f9f9;
 $delice-text-color: #0887fb;
+$delice-entree-color: #0228dd;
+$delice-plats-color: #0670f3;
+$delice-dessert-color: #229df9;
 $delice-degrade1: #0687fb;
 $delice-degrade2: #0431df;
 
 //color-palette
+$palette-back-color: #fdfffd;
 $palette-text-color: #72bf56;
 $palette-degrade1: #c8fe94;
 $palette-degrade2: #3d9339;
@@ -31,6 +34,7 @@ $palette-degrade2: #3d9339;
 $note-titre: 'Devonshire-Regular', Helvetica, Arial, sans-serif;
 $note-menu: 'sf_toontimeregular', Helvetica, Arial, sans-serif;
 $note-text: 'Segoe Print', Tahoma, Geneva, Verdana, sans-serif;
+
 //Police-Chic
 $chic-font: 'croissant_oneregular', Helvetica, Arial, sans-serif;
 
@@ -39,15 +43,6 @@ $delice-font: 'dancing_scriptregular', Helvetica, Arial, sans-serif;
 $palette-font: 'kaushan_scriptregular', Helvetica, Arial, sans-serif;
 $menu-font: 'worstveld_slingregular', Helvetica, Arial, sans-serif;
 $del-pal-text: 'ScriptME-New', Helvetica, Arial, sans-serif;
-
-
-// font-size
-$font-size: (
-    logo: 5rem,
-    titre-menu: 2.5rem,
-    titre: 2rem,
-    chic-titre: 1.5rem
-);
 
 //Media-queries
 $small-screen: "screen and (max-width: 540px)";

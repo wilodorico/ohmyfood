@@ -336,13 +336,13 @@ p {
 }
 .menu--note .titre {
   font-size: 1.4rem;
-  width: 250px;
+  width: 35%;
   margin: auto;
   background-color: #fcdfdb;
 }
 .menu--note .titre--sousligne {
   display: inline;
-  background: linear-gradient(to top, #3c1218 0%, #3c1218 5%, transparent 1px) no-repeat;
+  background: linear-gradient(to top, #3c1218 0%, #3c1218 5%, transparent 2px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
   font-weight: bold;
@@ -365,7 +365,7 @@ p {
   font-size: 2.3rem;
 }
 
-.menu__chic {
+.chic {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -374,75 +374,256 @@ p {
   margin: 50px;
   padding: 80px 50px;
 }
-.menu__chic .chic--entrees {
+.chic--entrees {
   color: #c67412;
 }
-.menu__chic .chic--plats {
+.chic--plats {
   color: #a56799;
 }
-.menu__chic .chic--desserts {
+.chic--desserts {
   color: #6e4ccc;
 }
-.menu__chic h2 {
-  background: linear-gradient(to left, #6e4ccc, #c67412);
+.chic h2 {
+  background: linear-gradient(to left, #8f5bfe, #c67412);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "croissant_oneregular", Helvetica, Arial, sans-serif;
   font-size: 2rem;
   margin: 30px;
 }
-.menu__chic .hr-chic--entrees {
-  margin: -19px;
-  border: 0;
-  height: 5px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(198, 116, 18, 0.75), rgba(0, 0, 0, 0));
+.chic .hr-chic--entrees {
+  overflow: visible;
+  /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: #c67412;
+  border-width: 2px 0 0 0;
+  border-radius: 20px;
 }
-.menu__chic .hr-chic--plats {
-  margin: -19px;
-  border: 0;
-  height: 5px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(165, 103, 153, 0.75), rgba(0, 0, 0, 0));
+.chic .hr-chic--entrees:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #c67412;
+  border-width: 0 0 2px 0;
+  border-radius: 20px;
 }
-.menu__chic .hr-chic--desserts {
-  margin: -19px;
-  border: 0;
-  height: 5px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(110, 76, 204, 0.75), rgba(0, 0, 0, 0));
+.chic .hr-chic--plats {
+  overflow: visible;
+  /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: #a56799;
+  border-width: 2px 0 0 0;
+  border-radius: 20px;
 }
-.menu__chic .titre {
+.chic .hr-chic--plats:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #a56799;
+  border-width: 0 0 2px 0;
+  border-radius: 20px;
+}
+.chic .hr-chic--desserts {
+  overflow: visible;
+  /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: #6e4ccc;
+  border-width: 2px 0 0 0;
+  border-radius: 20px;
+}
+.chic .hr-chic--desserts:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #6e4ccc;
+  border-width: 0 0 2px 0;
+  border-radius: 20px;
+}
+.chic .titre {
+  position: relative;
+  top: -45px;
   font-size: 1.5rem;
-  width: 300px;
+  width: 40%;
   margin: auto;
   background-color: #fff5fe;
 }
-.menu__chic .titre--sousligne-entree {
+.chic .titre--sousligne-entree {
   display: inline;
-  background: linear-gradient(to top, #c67412 0%, #c67412 5%, transparent 1px) no-repeat;
+  background: linear-gradient(to top, #c67412 0%, #c67412 5%, transparent 2px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
   padding: 3px;
 }
-.menu__chic .titre--sousligne-entree:hover {
+.chic .titre--sousligne-entree:hover {
   background-size: 100% 100%;
 }
-.menu__chic .titre--sousligne-plat {
+.chic .titre--sousligne-plat {
   display: inline;
-  background: linear-gradient(to top, #a56799 0%, #a56799 5%, transparent 1px) no-repeat;
+  background: linear-gradient(to top, #a56799 0%, #a56799 5%, transparent 2px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
   padding: 3px;
 }
-.menu__chic .titre--sousligne-plat:hover {
+.chic .titre--sousligne-plat:hover {
   background-size: 100% 100%;
 }
-.menu__chic .titre--sousligne-dessert {
+.chic .titre--sousligne-dessert {
   display: inline;
-  background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 5%, transparent 1px) no-repeat;
+  background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 5%, transparent 2px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
   padding: 3px;
 }
-.menu__chic .titre--sousligne-dessert:hover {
+.chic .titre--sousligne-dessert:hover {
+  background-size: 100% 100%;
+}
+
+.delice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f9f9;
+  width: 60%;
+  margin: 50px;
+  padding: 80px 50px;
+}
+.delice h2 {
+  background: linear-gradient(to left, #0687fb, #0431df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "dancing_scriptregular", Helvetica, Arial, sans-serif;
+  font-size: 4rem;
+  margin: 30px;
+}
+.delice h3, .delice p {
+  font-family: "Segoe Print", Tahoma, Geneva, Verdana, sans-serif;
+}
+.delice .hr-delice--entrees {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #0228dd;
+  border-width: 0 0 4px 0;
+  border-radius: 20px;
+}
+.delice .hr-delice--plats {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #0670f3;
+  border-width: 0 0 4px 0;
+  border-radius: 20px;
+}
+.delice .hr-delice--desserts {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #229df9;
+  border-width: 0 0 4px 0;
+  border-radius: 20px;
+}
+.delice .titre {
+  position: relative;
+  top: -18px;
+  width: 40%;
+  margin: auto;
+  font-size: 1.1rem;
+  background-color: #f9f9f9;
+}
+.delice .titre--sousligne-entree {
+  display: inline;
+  background: linear-gradient(to top, #0228dd 0%, #0228dd 5%, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.delice .titre--sousligne-entree:hover {
+  background-size: 100% 100%;
+}
+.delice .titre--sousligne-plat {
+  display: inline;
+  background: linear-gradient(to top, #0670f3 0%, #0670f3 5%, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.delice .titre--sousligne-plat:hover {
+  background-size: 100% 100%;
+}
+.delice .titre--sousligne-dessert {
+  display: inline;
+  background: linear-gradient(to top, #229df9 0%, #229df9 5%, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.delice .titre--sousligne-dessert:hover {
+  background-size: 100% 100%;
+}
+
+.palette {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fdfffd;
+  width: 60%;
+  margin: 50px;
+  padding: 80px 50px;
+}
+.palette h2 {
+  background: linear-gradient(to left, #c8fe94, #3d9339);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "kaushan_scriptregular", Helvetica, Arial, sans-serif;
+  font-size: 4rem;
+  margin: 30px;
+}
+.palette h3, .palette p {
+  font-family: "Segoe Print", Tahoma, Geneva, Verdana, sans-serif;
+}
+.palette .hr-delice--entrees {
+  margin: -19px;
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, rgba(200, 254, 148, 0.2), #3d9339, rgba(200, 254, 148, 0.2));
+}
+.palette .hr-delice--plats {
+  margin: -19px;
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, rgba(200, 254, 148, 0.2), #3d9339, rgba(200, 254, 148, 0.2));
+}
+.palette .hr-delice--desserts {
+  margin: -19px;
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, rgba(200, 254, 148, 0.2), #3d9339, rgba(200, 254, 148, 0.2));
+}
+.palette .titre {
+  width: 35%;
+  margin: auto;
+  font-size: 1.1rem;
+  background-color: #fdfffd;
+}
+.palette .titre--sousligne-palette {
+  display: inline;
+  background: linear-gradient(to top, #3d9339 0%, #3d9339 5%, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.palette .titre--sousligne-palette:hover {
   background-size: 100% 100%;
 }
 

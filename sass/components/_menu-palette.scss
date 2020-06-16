@@ -1,0 +1,30 @@
+.palette {
+    @include menu-card($palette-back-color);
+    h2 {
+        @include degrade-text(to left, $palette-degrade1, $palette-degrade2);
+        font-family: $palette-font;
+        font-size: 4rem;
+        margin: 30px;
+    }
+    h3, p {
+        font-family: $note-text;
+    }
+    .hr-delice--entrees {
+        @include sep-palette;
+    }
+    .hr-delice--plats {
+        @include sep-palette;
+    }
+    .hr-delice--desserts {
+        @include sep-palette;
+    }
+    .titre {
+        width: 35%;
+        margin: auto;
+        font-size: 1.1rem;
+        @include ajust-titre ($palette-back-color);
+        &--sousligne-palette {
+            @include sous-ligne ($palette-degrade2);
+        }
+    }
+}

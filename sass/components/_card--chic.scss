@@ -1,12 +1,12 @@
 .card--chic {
-    @include card (#fff5fe);
+    @include card ($chic-back-color);
     h1 {
         @include degrade-text(to left, $chic-dessert-color, $chic-entree-color);
         font-family: $chic-font;
-        font-size: map-get($font-size, chic-titre);
+        font-size: 1.5rem;
     }
     h2 {
-        font-size: map-get($font-size, titre-menu);
+        font-size: 2.5rem;
         color: $chic-entree-color;
         font-weight: bold;
     }
