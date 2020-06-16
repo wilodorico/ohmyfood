@@ -209,7 +209,6 @@ p {
   height: 550px;
   width: 400px;
   margin: 25px;
-  color: #3c1218;
 }
 .card--note .fa-music {
   background: linear-gradient(to left, #f8a183, #f15861);
@@ -227,6 +226,9 @@ p {
   font-family: "sf_toontimeregular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 2.5rem;
+}
+.card--note a {
+  color: #3c1218;
 }
 
 .card--chic {
