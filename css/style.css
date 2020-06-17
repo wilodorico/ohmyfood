@@ -182,7 +182,10 @@ p {
 .grid .transform-title-menu {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
   transition: transform 450ms, opacity 400ms 150ms;
 }
 .grid .transform-title-menu:hover {
@@ -203,6 +206,7 @@ p {
   height: 550px;
   width: 400px;
   margin: 25px;
+  color: #3c1218;
 }
 .card--note .fa-music {
   background: linear-gradient(to left, #f8a183, #f15861);
@@ -220,9 +224,6 @@ p {
   font-family: "sf_toontimeregular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 2.5rem;
-}
-.card--note a {
-  color: #3c1218;
 }
 
 .card--chic {
@@ -632,14 +633,17 @@ p {
 
 .header {
   background: #579c87;
-  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 5rem;
+  height: 150px;
 }
 .header__heading {
   color: #fdcb46;
+  font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: -7px;
 }
 
 .footer {

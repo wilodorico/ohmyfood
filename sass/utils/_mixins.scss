@@ -54,6 +54,14 @@
 }
 
 //animations
+@mixin transition-zoom {
+    transition: transform 450ms, opacity 400ms 150ms;
+    &:hover {
+        transform: scale(1.15);
+        opacity: 0.4;
+    }
+}
+
 @keyframes wiggle {
     0% { transform: rotate(0.8deg); }
     50% { transform: rotate(-0.8deg); }
