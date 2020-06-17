@@ -1,5 +1,6 @@
 .card--note {
     @include card ($note-back-color);
+    color: $note-text-color;
     .fa-music {
         @include degrade-text(to left, $note-degrade1, $note-degrade2);
         width: 52px;
@@ -14,8 +15,5 @@
         font-family: $note-menu;
         text-transform: uppercase;
         font-size: 2.5rem;
-    }
-    a {
-        color: $note-text-color;
     }
 }
