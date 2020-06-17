@@ -17,5 +17,10 @@
             animation-timing-function: linear;
         }
     }
-    
+    @media #{$small-screen} {
+        justify-content: space-around;
+        a {
+            margin: 0;
+        }
+    }
 }
