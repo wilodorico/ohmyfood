@@ -1,12 +1,12 @@
 .card--delice {
     @include card ($delice-back-color);
-    h1 {
+    h2 {
         @include degrade-text(to left, $delice-degrade1, $delice-degrade2);
         font-family: $delice-font;
         font-size: 2.5rem;
         padding: 5px;
     }
-    h2 {
+    h3 {
         font-family: $menu-font;
         font-size: 5rem;
         color: $delice-text-color;

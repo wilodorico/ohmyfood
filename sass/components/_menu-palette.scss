@@ -21,6 +21,7 @@
     .titre {
         width: 35%;
         margin: auto;
+        margin-top: -19px;
         font-size: 1.1rem;
         @include ajust-titre ($palette-back-color);
         &--sousligne-palette {

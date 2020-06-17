@@ -8,7 +8,6 @@
         font-size: 70px;
     }
     .hr--note {
-        margin: -25px;
         @include sep-note;
     }
     h2, h4 {
@@ -22,6 +21,7 @@
         font-size: 1.4rem;
         width: 35%;
         margin: auto;
+        margin-top: -25px;
         @include ajust-titre ($note-back-color);
         &--sousligne{
             @include sous-ligne;

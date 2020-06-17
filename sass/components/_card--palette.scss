@@ -1,11 +1,11 @@
 .card--palette {
     @include card ($palette-back-color);
-    h1 {
+    h2 {
         @include degrade-text(to left, $palette-degrade1, $palette-degrade2);
         font-family: $palette-font;
         font-size: 2.5rem;
     }
-    h2 {
+    h3 {
         font-family: $menu-font;
         font-size: 5rem;
         color: $palette-text-color;

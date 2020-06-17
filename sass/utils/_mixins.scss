@@ -99,7 +99,6 @@
 }
 
 @mixin sep-palette ($color: $palette-degrade2) {
-    margin: -19px;
     border: 0;
     height: 5px;
     background-image: linear-gradient(to right, rgba(200, 254, 148, 0.2), $color, rgba(200, 254, 148, 0.2));
