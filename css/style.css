@@ -212,11 +212,11 @@ p {
   height: 52px;
   font-size: 50px;
 }
-.card--note h1 {
+.card--note h2 {
   font-family: "Devonshire-Regular", Helvetica, Arial, sans-serif;
   font-size: 2rem;
 }
-.card--note h2 {
+.card--note h3 {
   font-family: "sf_toontimeregular", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -236,14 +236,14 @@ p {
   width: 400px;
   margin: 25px;
 }
-.card--chic h1 {
+.card--chic h2 {
   background: linear-gradient(to left, #6e4ccc, #c67412);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "croissant_oneregular", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
 }
-.card--chic h2 {
+.card--chic h3 {
   font-size: 2.5rem;
   color: #c67412;
   font-weight: bold;
@@ -260,7 +260,7 @@ p {
   width: 400px;
   margin: 25px;
 }
-.card--delice h1 {
+.card--delice h2 {
   background: linear-gradient(to left, #0687fb, #0431df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -268,7 +268,7 @@ p {
   font-size: 2.5rem;
   padding: 5px;
 }
-.card--delice h2 {
+.card--delice h3 {
   font-family: "worstveld_slingregular", Helvetica, Arial, sans-serif;
   font-size: 5rem;
   color: #0887fb;
@@ -286,14 +286,14 @@ p {
   width: 400px;
   margin: 25px;
 }
-.card--palette h1 {
+.card--palette h2 {
   background: linear-gradient(to left, #c8fe94, #3d9339);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "kaushan_scriptregular", Helvetica, Arial, sans-serif;
   font-size: 2.5rem;
 }
-.card--palette h2 {
+.card--palette h3 {
   font-family: "worstveld_slingregular", Helvetica, Arial, sans-serif;
   font-size: 5rem;
   color: #72bf56;
@@ -319,7 +319,6 @@ p {
   font-size: 70px;
 }
 .menu--note .hr--note {
-  margin: -25px;
   border: 0;
   height: 5px;
   background-color: #3c1218;
@@ -335,6 +334,7 @@ p {
   font-size: 1.4rem;
   width: 35%;
   margin: auto;
+  margin-top: -25px;
   background-color: #fcdfdb;
 }
 .menu--note .titre--sousligne {
@@ -599,19 +599,16 @@ p {
   font-family: "Segoe Print", Tahoma, Geneva, Verdana, sans-serif;
 }
 .palette .hr-delice--entrees {
-  margin: -19px;
   border: 0;
   height: 5px;
   background-image: linear-gradient(to right, rgba(200, 254, 148, 0.2), #3d9339, rgba(200, 254, 148, 0.2));
 }
 .palette .hr-delice--plats {
-  margin: -19px;
   border: 0;
   height: 5px;
   background-image: linear-gradient(to right, rgba(200, 254, 148, 0.2), #3d9339, rgba(200, 254, 148, 0.2));
 }
 .palette .hr-delice--desserts {
-  margin: -19px;
   border: 0;
   height: 5px;
   background-image: linear-gradient(to right, rgba(200, 254, 148, 0.2), #3d9339, rgba(200, 254, 148, 0.2));
@@ -619,6 +616,7 @@ p {
 .palette .titre {
   width: 35%;
   margin: auto;
+  margin-top: -19px;
   font-size: 1.1rem;
   background-color: #fdfffd;
 }
@@ -678,10 +676,10 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 80px;
 }
 .menu__card--titre {
   text-align: center;
-  margin-top: 80px;
   margin-bottom: 25px;
 }
 .menu__card--details {
