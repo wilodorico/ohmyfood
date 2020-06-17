@@ -134,6 +134,10 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  text-align: center;
+}
+
 p {
   margin: 8px;
   font-size: 1rem;
@@ -305,10 +309,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #fcdfdb;
   width: 60%;
+  min-width: 450px;
   margin: 50px;
   padding: 80px 50px;
+  background: #fcdfdb;
   color: #3c1218;
 }
 .menu--note .fa-music {
@@ -333,7 +338,7 @@ p {
 }
 .menu--note .titre {
   font-size: 1.4rem;
-  width: 35%;
+  width: 220px;
   margin: auto;
   margin-top: -25px;
   background-color: #fcdfdb;
@@ -367,10 +372,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #fff5fe;
   width: 60%;
+  min-width: 450px;
   margin: 50px;
   padding: 80px 50px;
+  background: #fff5fe;
 }
 .chic--entrees {
   color: #c67412;
@@ -457,7 +463,7 @@ p {
   position: relative;
   top: -45px;
   font-size: 1.5rem;
-  width: 40%;
+  width: 240px;
   margin: auto;
   background-color: #fff5fe;
 }
@@ -496,10 +502,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #edefef;
   width: 60%;
+  min-width: 450px;
   margin: 50px;
   padding: 80px 50px;
+  background: #edefef;
 }
 .delice h2 {
   background: linear-gradient(to left, #0687fb, #0431df);
@@ -546,7 +553,7 @@ p {
 .delice .titre {
   position: relative;
   top: -18px;
-  width: 40%;
+  width: 240px;
   margin: auto;
   font-size: 1.1rem;
   background-color: #edefef;
@@ -583,10 +590,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #fdfffd;
   width: 60%;
+  min-width: 450px;
   margin: 50px;
   padding: 80px 50px;
+  background: #fdfffd;
 }
 .palette h2 {
   background: linear-gradient(to left, #c8fe94, #3d9339);
@@ -615,7 +623,7 @@ p {
   background-image: linear-gradient(to right, rgba(200, 254, 148, 0.2), #3d9339, rgba(200, 254, 148, 0.2));
 }
 .palette .titre {
-  width: 35%;
+  width: 200px;
   margin: auto;
   margin-top: -19px;
   font-size: 1.1rem;
@@ -660,7 +668,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin: 0 30px;
   font-size: 2rem;
 }
 .footer a {
@@ -669,6 +677,14 @@ p {
 .footer a:hover {
   animation: wiggle 90ms infinite;
   animation-timing-function: linear;
+}
+@media screen and (max-width: 620px) {
+  .footer {
+    justify-content: space-around;
+  }
+  .footer a {
+    margin: 0;
+  }
 }
 
 .menu {
