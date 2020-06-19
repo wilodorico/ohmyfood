@@ -42,4 +42,7 @@
             font-size: 2.3rem;
         }
     }
+    @media #{$x-small-screen} {
+        min-width: 360px;
+    }
 }

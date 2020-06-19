@@ -37,4 +37,13 @@
             @include sous-ligne ($delice-dessert-color);
         }
     }
+    @media #{$x-small-screen} {
+        min-width: 360px;
+        .titre {
+            width: 55%;
+        }
+        h2 {
+            font-size: 2.8rem;
+        }
+    }
 }

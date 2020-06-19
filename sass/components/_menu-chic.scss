@@ -52,4 +52,10 @@
             padding: 3px;
         }
     }
+    @media #{$x-small-screen} {
+        min-width: 360px;
+        .titre {
+            width: 55%;
+        }
+    }
 }
