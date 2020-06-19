@@ -55,7 +55,10 @@
     @media #{$x-small-screen} {
         min-width: 360px;
         .titre {
-            width: 55%;
+            width: 63%;
         }
+    }
+    @media #{$xx-small-screen} {
+        min-width: 315px;
     }
 }

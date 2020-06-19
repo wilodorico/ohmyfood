@@ -44,5 +44,17 @@
     }
     @media #{$x-small-screen} {
         min-width: 360px;
+        .titre {
+            width: 63%;
+        }
+        h2 {
+            font-size: 2.8rem;
+        }
+    }
+    @media #{$xx-small-screen} {
+        min-width: 315px;
+        .titre-bottom {
+            flex-direction: column;
+        }
     }
 }
