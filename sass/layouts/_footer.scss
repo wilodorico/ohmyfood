@@ -1,12 +1,5 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    background: $color-primary;
-    height: 80px;
+    @include footer;
     &__bloc {
         @include bloc-footer;
     }

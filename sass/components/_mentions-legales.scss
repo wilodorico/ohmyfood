@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 100px 20px;
+    padding: 50px;
+    background: $mentions-back-color;
+    text-align: justify;
+    font-family: $note-text;
+    color: $color-text-mentions;
+    @include shadow-card;
+    &--hr-mentions {
+        @include sep-mentions;
+    }
+    h2 {
+        text-align: center;
+        font-size: 2.3rem;
+        color: $color-text-hf;
+    }
+    h3 {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: $color-text-hf;
+    }
+    h4 {
+        font-size: 1.4rem;
+        color: $color-text-hf;
+        margin: 10px;
+    }
+    span {
+        font-weight: bold;
+        color: black;
+    }
+    a {
+        color: $color-primary;
+        @include sous-ligne ($color-primary);
+    }
+    
+}
+.footer-mentions {
+    @include footer;
+    justify-content: center;
+    a {
+        color: $color-text-hf;
+        &:hover {
+            animation: wiggle 90ms infinite;
+            animation-timing-function: linear;
+        }
+    }
+}

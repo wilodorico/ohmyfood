@@ -9,17 +9,6 @@
     transform: rotate(0.8deg);
   }
 }
-@-webkit-keyframes dot {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes dot {
   0% {
     opacity: 0;
@@ -125,6 +114,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   max-width: 1280px;
   margin: auto;
   margin-bottom: 130px;
@@ -212,6 +202,16 @@ p {
   margin: 25px;
   color: #3c1218;
 }
+@media screen and (max-width: 450px) {
+  .card--note {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .card--note {
+    width: 315px;
+  }
+}
 .card--note .fa-music {
   background: linear-gradient(to left, #f8a183, #f15861);
   -webkit-background-clip: text;
@@ -241,6 +241,16 @@ p {
   width: 400px;
   margin: 25px;
 }
+@media screen and (max-width: 450px) {
+  .card--chic {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .card--chic {
+    width: 315px;
+  }
+}
 .card--chic h2 {
   background: linear-gradient(to left, #6e4ccc, #c67412);
   -webkit-background-clip: text;
@@ -264,6 +274,16 @@ p {
   height: 550px;
   width: 400px;
   margin: 25px;
+}
+@media screen and (max-width: 450px) {
+  .card--delice {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .card--delice {
+    width: 315px;
+  }
 }
 .card--delice h2 {
   background: linear-gradient(to left, #0687fb, #0431df);
@@ -290,6 +310,16 @@ p {
   height: 550px;
   width: 400px;
   margin: 25px;
+}
+@media screen and (max-width: 450px) {
+  .card--palette {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .card--palette {
+    width: 315px;
+  }
 }
 .card--palette h2 {
   background: linear-gradient(to left, #c8fe94, #3d9339);
@@ -370,6 +400,20 @@ p {
 @media screen and (max-width: 450px) {
   .menu--note {
     min-width: 360px;
+  }
+  .menu--note .titre {
+    width: 63%;
+  }
+  .menu--note h2 {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 365px) {
+  .menu--note {
+    min-width: 315px;
+  }
+  .menu--note .titre-bottom {
+    flex-direction: column;
   }
 }
 
@@ -507,7 +551,12 @@ p {
     min-width: 360px;
   }
   .chic .titre {
-    width: 55%;
+    width: 63%;
+  }
+}
+@media screen and (max-width: 365px) {
+  .chic {
+    min-width: 315px;
   }
 }
 
@@ -609,6 +658,11 @@ p {
     font-size: 2.8rem;
   }
 }
+@media screen and (max-width: 365px) {
+  .delice {
+    min-width: 315px;
+  }
+}
 
 .palette {
   display: flex;
@@ -673,6 +727,81 @@ p {
     font-size: 2.8rem;
   }
 }
+@media screen and (max-width: 365px) {
+  .palette {
+    min-width: 315px;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 100px 20px;
+  padding: 50px;
+  background: #fdfffd;
+  text-align: justify;
+  font-family: "Segoe Print", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4B4B4B;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+}
+.card--hr-mentions {
+  margin-top: 3px;
+  margin-bottom: 20px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.card h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  color: #fdcb46;
+}
+.card h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fdcb46;
+}
+.card h4 {
+  font-size: 1.4rem;
+  color: #fdcb46;
+  margin: 10px;
+}
+.card span {
+  font-weight: bold;
+  color: black;
+}
+.card a {
+  color: #579c87;
+  display: inline;
+  background: linear-gradient(to top, #579c87 0%, #579c87 5%, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.card a:hover {
+  background-size: 100% 100%;
+}
+
+.footer-mentions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: #579c87;
+  height: 80px;
+  justify-content: center;
+}
+.footer-mentions a {
+  color: #fdcb46;
+}
+.footer-mentions a:hover {
+  animation: wiggle 90ms infinite;
+  animation-timing-function: linear;
+}
 
 .header {
   background: #579c87;
@@ -683,7 +812,7 @@ p {
 }
 .header__heading {
   color: #fdcb46;
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   letter-spacing: -7px;

@@ -37,4 +37,7 @@
             font-size: 2.8rem;
         }
     }
+    @media #{$xx-small-screen} {
+        min-width: 315px;
+    }
 }
