@@ -14,7 +14,7 @@
     
     &__card--details {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between;   
     }
     &__card--desserts {
         @include flex-column;

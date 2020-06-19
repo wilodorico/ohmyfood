@@ -23,4 +23,7 @@
             margin: 0;
         }
     }
+    @media #{$x-small-screen} {
+        flex-direction: column;
+    }
 }
