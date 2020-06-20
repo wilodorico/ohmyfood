@@ -559,7 +559,7 @@ p {
     max-width: 360px;
   }
   .chic .titre {
-    width: 68%;
+    width: 72%;
   }
 }
 @media screen and (max-width: 365px) {
@@ -729,7 +729,7 @@ p {
     min-width: 360px;
   }
   .palette .titre {
-    width: 55%;
+    width: 58%;
   }
   .palette h2 {
     font-size: 2.8rem;
