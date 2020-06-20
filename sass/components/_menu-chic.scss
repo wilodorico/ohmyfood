@@ -57,6 +57,9 @@
         .titre {
             width: 72%;
         }
+        h3 {
+            font-size: 1.1rem;
+        }
     }
     @media #{$xx-small-screen} {
         min-width: 315px;
