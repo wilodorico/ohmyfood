@@ -183,7 +183,7 @@ p {
   transition: transform 450ms, opacity 400ms 150ms;
 }
 .grid .transform-title-menu:hover {
-  transform: scale(1.15);
+  transform: scale(1.11);
   opacity: 0.4;
 }
 .grid__card {
