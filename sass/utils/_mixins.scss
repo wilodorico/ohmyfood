@@ -10,9 +10,11 @@
     margin: 25px;
     @media #{$x-small-screen} {
         width: 350px;
+        margin: 25px 0;
     }
     @media #{$xx-small-screen} {
         width: 315px;
+        margin: 25px 0;
     }
 }
 

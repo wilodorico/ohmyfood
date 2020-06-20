@@ -53,9 +53,9 @@
         }
     }
     @media #{$x-small-screen} {
-        min-width: 360px;
+        max-width: 360px;
         .titre {
-            width: 63%;
+            width: 68%;
         }
     }
     @media #{$xx-small-screen} {
