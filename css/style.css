@@ -205,11 +205,13 @@ p {
 @media screen and (max-width: 450px) {
   .card--note {
     width: 350px;
+    margin: 25px 0;
   }
 }
 @media screen and (max-width: 365px) {
   .card--note {
     width: 315px;
+    margin: 25px 0;
   }
 }
 .card--note .fa-music {
@@ -244,11 +246,13 @@ p {
 @media screen and (max-width: 450px) {
   .card--chic {
     width: 350px;
+    margin: 25px 0;
   }
 }
 @media screen and (max-width: 365px) {
   .card--chic {
     width: 315px;
+    margin: 25px 0;
   }
 }
 .card--chic h2 {
@@ -278,11 +282,13 @@ p {
 @media screen and (max-width: 450px) {
   .card--delice {
     width: 350px;
+    margin: 25px 0;
   }
 }
 @media screen and (max-width: 365px) {
   .card--delice {
     width: 315px;
+    margin: 25px 0;
   }
 }
 .card--delice h2 {
@@ -314,11 +320,13 @@ p {
 @media screen and (max-width: 450px) {
   .card--palette {
     width: 350px;
+    margin: 25px 0;
   }
 }
 @media screen and (max-width: 365px) {
   .card--palette {
     width: 315px;
+    margin: 25px 0;
   }
 }
 .card--palette h2 {
@@ -399,7 +407,7 @@ p {
 }
 @media screen and (max-width: 450px) {
   .menu--note {
-    min-width: 360px;
+    max-width: 360px;
   }
   .menu--note .titre {
     width: 63%;
@@ -548,10 +556,10 @@ p {
 }
 @media screen and (max-width: 450px) {
   .chic {
-    min-width: 360px;
+    max-width: 360px;
   }
   .chic .titre {
-    width: 63%;
+    width: 68%;
   }
 }
 @media screen and (max-width: 365px) {
