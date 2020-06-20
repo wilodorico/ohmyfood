@@ -561,6 +561,9 @@ p {
   .chic .titre {
     width: 72%;
   }
+  .chic h3 {
+    font-size: 1.1rem;
+  }
 }
 @media screen and (max-width: 365px) {
   .chic {
