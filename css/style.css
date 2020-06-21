@@ -407,7 +407,7 @@ p {
 }
 @media screen and (max-width: 450px) {
   .menu--note {
-    max-width: 360px;
+    min-width: 360px;
   }
   .menu--note .titre {
     width: 63%;
