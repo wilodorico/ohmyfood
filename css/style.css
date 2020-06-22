@@ -119,6 +119,11 @@ main {
   margin: auto;
   margin-bottom: 130px;
 }
+@media screen and (max-width: 968px) {
+  main {
+    max-width: 918px;
+  }
+}
 
 a {
   text-decoration: none;
@@ -202,7 +207,7 @@ p {
   margin: 25px;
   color: #3c1218;
 }
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 968px) {
   .card--note {
     width: 250px;
     height: 350px;
@@ -243,7 +248,7 @@ p {
   width: 400px;
   margin: 25px;
 }
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 968px) {
   .card--chic {
     width: 250px;
     height: 350px;
@@ -279,7 +284,7 @@ p {
   width: 400px;
   margin: 25px;
 }
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 968px) {
   .card--delice {
     width: 250px;
     height: 350px;
@@ -317,7 +322,7 @@ p {
   width: 400px;
   margin: 25px;
 }
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 968px) {
   .card--palette {
     width: 250px;
     height: 350px;
@@ -853,7 +858,7 @@ p {
   animation: wiggle 90ms infinite;
   animation-timing-function: linear;
 }
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 968px) {
   .footer {
     justify-content: space-around;
   }
