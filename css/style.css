@@ -197,20 +197,20 @@ p {
   justify-content: center;
   text-decoration: none;
   background: #fcdfdb;
-  height: 550px;
+  height: 500px;
   width: 400px;
   margin: 25px;
   color: #3c1218;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 801px) {
   .card--note {
-    width: 350px;
-    margin: 25px 0;
+    width: 250px;
+    height: 350px;
+    margin: 25px 20px;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 450px) {
   .card--note {
-    width: 315px;
     margin: 25px 0;
   }
 }
@@ -239,19 +239,19 @@ p {
   justify-content: center;
   text-decoration: none;
   background: #fff5fe;
-  height: 550px;
+  height: 500px;
   width: 400px;
   margin: 25px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 801px) {
   .card--chic {
-    width: 350px;
-    margin: 25px 0;
+    width: 250px;
+    height: 350px;
+    margin: 25px 20px;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 450px) {
   .card--chic {
-    width: 315px;
     margin: 25px 0;
   }
 }
@@ -275,19 +275,19 @@ p {
   justify-content: center;
   text-decoration: none;
   background: #f9f9f9;
-  height: 550px;
+  height: 500px;
   width: 400px;
   margin: 25px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 801px) {
   .card--delice {
-    width: 350px;
-    margin: 25px 0;
+    width: 250px;
+    height: 350px;
+    margin: 25px 20px;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 450px) {
   .card--delice {
-    width: 315px;
     margin: 25px 0;
   }
 }
@@ -301,7 +301,7 @@ p {
 }
 .card--delice h3 {
   font-family: "worstveld_slingregular", Helvetica, Arial, sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   color: #0887fb;
   font-weight: bold;
 }
@@ -313,19 +313,19 @@ p {
   justify-content: center;
   text-decoration: none;
   background: #fdfffd;
-  height: 550px;
+  height: 500px;
   width: 400px;
   margin: 25px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 801px) {
   .card--palette {
-    width: 350px;
-    margin: 25px 0;
+    width: 250px;
+    height: 350px;
+    margin: 25px 20px;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 450px) {
   .card--palette {
-    width: 315px;
     margin: 25px 0;
   }
 }
@@ -338,7 +338,7 @@ p {
 }
 .card--palette h3 {
   font-family: "worstveld_slingregular", Helvetica, Arial, sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   color: #72bf56;
   font-weight: bold;
 }
@@ -853,7 +853,7 @@ p {
   animation: wiggle 90ms infinite;
   animation-timing-function: linear;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 801px) {
   .footer {
     justify-content: space-around;
   }

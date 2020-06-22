@@ -5,15 +5,15 @@
     justify-content: center;
     text-decoration: none;
     background: $color;
-    height: 550px;
+    height: 500px;
     width: 400px;
     margin: 25px;
-    @media #{$x-small-screen} {
-        width: 350px;
-        margin: 25px 0;
+    @media #{$small-screen} {
+        width: 250px;
+        height: 350px;
+        margin: 25px 20px;
     }
-    @media #{$xx-small-screen} {
-        width: 315px;
+    @media #{$x-small-screen} {
         margin: 25px 0;
     }
 }
