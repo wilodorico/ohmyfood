@@ -1,8 +1,8 @@
-# OC-DW-P3 
-## Dynamisez un site web
+# ohmyfood thème menu restaurant 
+## Compétences travaillé dynamisez un site web
 - Animations
 - préprocesseur sass
 - méthode BEM
-- application du DRY
+- application principe DRY
 
-https://facodeur.github.io/OC-DW-P3/
+https://wilodorico.github.io/ohmyfood/
